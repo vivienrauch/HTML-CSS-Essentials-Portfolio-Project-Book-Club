@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Tangerine:wght@700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
 
 h1 {
     font-family: 'Tangerine', cursive;
@@ -19,8 +27,33 @@ h1 {
     margin-top: 10px;
 }
 
-#menu {
+/* navigation links, menu */
 
+#menu, #logo {
+  
+}
+
+#menu {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #3a3a3a
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#menu a:hover {
+    background-color: #e9e3dc;
+    color: #a69797;
 }
 
 /* hero image (credit: majority of code borrowed from the Love Running Walkthrough Project)*/
