@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    letter-spacing: 1px;
+    color: #3a3a3a
+}
+
+#logo{
+    float: left;
+    font-size: 350%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#menu {
+
+}
+
+/* hero image (credit: majority of code borrowed from the Love Running Walkthrough Project)*/
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/book-club-main-image.png'); /* credit: image created in Canva */
+    background-size: contains;
+}
