@@ -90,30 +90,77 @@ h2 {
 
 /* introduction */
 
-#introduction-text {
-    font-family: 'EB Garamond', serif;
+#left {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+}
 
-    height: 35%;
+#left-container{
+    height: 73.5%;
     width: 25%;
-    border-radius: 10%;
-    margin: 0 auto;
+    border-radius: 5%;
     background-color: rgba(250, 250, 250, .6);
-
+    float: left;
     top: 30px;
-    
-
+    margin-left: 65px;
     position: absolute;
+}
+
+#introduction-text-left {
 
 }
 
-#introduction-text h2 {
+#right {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+#right-container {
+    height: 73.5%;
+    width: 25%;
+    border-radius: 5%;
+    background-color: rgba(250, 250, 250, .6);
+    float: right;
+    top: 30px;
+    margin-right: 75px;
+    position: absolute;
+}
+
+#introduction-text-right {
+
+}
+
+#center {
+    padding-top: 30px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#center-container {
+    height: 73.5%;
+    width: 25%;
+    border-radius: 5%;
+    background-color: rgba(250, 250, 250, .6);
+    left: 37%;
+    top: 30px;
+    position: absolute;
+}
+
+#introduction-text-center {
+    font-family: 'EB Garamond', serif;
+
+}
+
+#introduction-text-center h2 {
     text-transform: uppercase;
     text-align: left;
     font-size: 135%;
     position: inherit;
 }
 
-#introduction-text h3 {
+#introduction-text-center h3 {
     position: inherit;
     font-weight: 200;
     top: 50px;
