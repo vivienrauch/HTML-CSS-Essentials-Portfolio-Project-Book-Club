@@ -12,6 +12,15 @@ body {
     color: #3a3a3a;
 }
 
+a {
+    color: #3a3a3a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 /* headings and logo */
 
 h1 {
@@ -107,8 +116,25 @@ h2 {
     position: absolute;
 }
 
-#introduction-text-left {
+.introduction-text-left h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 135%;;
+    margin: 15px;
+    padding-left: 11%;
+    clear: both;
+    position: relative;
+}
 
+.introduction-text-left h3 {
+    position: inherit;
+    font-weight: 200;
+    top: 50px;
+    text-align: justify;
+    left: 20px;
+    right: 15px;
+    clear: both;
+    margin: 15px;
 }
 
 #right {
@@ -128,8 +154,25 @@ h2 {
     position: absolute;
 }
 
-#introduction-text-right {
+.introduction-text-right h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 135%;;
+    margin: 15px;
+    padding-left: 11%;
+    clear: both;
+    position: relative;
+}
 
+.introduction-text-right h3 {
+    position: inherit;
+    font-weight: 200;
+    top: 50px;
+    text-align: justify;
+    left: 20px;
+    right: 15px;
+    clear: both;
+    margin: 15px;
 }
 
 #center {
@@ -148,26 +191,57 @@ h2 {
     position: absolute;
 }
 
-#introduction-text-center {
+.introduction-text-center {
     font-family: 'EB Garamond', serif;
 
 }
 
-#introduction-text-center h2 {
+.introduction-text-center h2 {
     text-transform: uppercase;
-    text-align: left;
-    font-size: 135%;
-    position: inherit;
+    text-align: center;
+    font-size: 135%;;
+    margin: 15px;
+    padding-left: 11%;
+    clear: both;
+    position: relative;
 }
 
-#introduction-text-center h3 {
+.introduction-text-center h3 {
     position: inherit;
     font-weight: 200;
     top: 50px;
-    right: inherit;
     text-align: justify;
     left: 20px;
     right: 15px;
+    clear: both;
+    margin: 15px;
+}
+
+.introduction-text-center li {
+    font-family: 'EB Garamond', serif;
+    position: inherit;
+    font-weight: 200;
+    font-size: 19px;
+    top: 50px;
+    text-align: justify;
+    left: 20px;
+    right: 15px;
+    clear: both;
+    margin: 15px;
+    list-style-type: none;
+}
+
+li > hr {
+    border-top: 1px solid #3a3a3a;
+    width: 55%;
+    margin: 18px 0 15px 0;
+    
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 85%;
+    margin: 5px 25px;
 }
 
 /* map */
