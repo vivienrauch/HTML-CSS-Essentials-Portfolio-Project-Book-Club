@@ -111,21 +111,22 @@ h2 {
     left: 35%;
     bottom: 60%;
 
-    color: #fafafa;
+    color: #3a3a3a;
     
-    position: absolute;
+    position: relative;
 }
 
 #quote h1 {
-    color: #fafafa;
+    color:#3a3a3a;
 }
 
 #quote p {
-    color: #fafafa;
+    color: #3a3a3a;
 }
 
 #quote h3 {
-    color: #fafafa;
+    color: #3a3a3a;
+    font-size: 110%;
 }
 /* map */
 
