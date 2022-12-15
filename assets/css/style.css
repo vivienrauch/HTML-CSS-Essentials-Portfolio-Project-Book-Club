@@ -43,7 +43,7 @@ h2 {
     float: left;
     font-size: 350%;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 /* navigation links, menu */
@@ -61,7 +61,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     color: #fafafa;
 }
@@ -84,7 +84,7 @@ h2 {
 /* main image */
 
 #main-outer {
-    height: 700px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -99,6 +99,7 @@ h2 {
 
 #quote {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 130%;
@@ -108,6 +109,7 @@ h2 {
     height: 10%;
 
     text-align: center;
+    margin-top: 15px;
     left: 35%;
     bottom: 60%;
 
@@ -126,7 +128,8 @@ h2 {
 
 #quote h3 {
     color: #3a3a3a;
-    font-size: 110%;
+    font-size: 105%;
+    margin-top: 10px;
 }
 /* map */
 
