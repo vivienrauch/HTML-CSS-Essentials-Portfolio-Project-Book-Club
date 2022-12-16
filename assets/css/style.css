@@ -26,13 +26,13 @@ a:hover {
 h1 {
     font-family: 'Tangerine', cursive;
     letter-spacing: 1px;
-    color: #fafafa;
+    color: #3a3a3a;
 }
 
 h2 {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    color: #fafafa;
+    color: #3a3a3a;
     margin-left: 30px;
     margin-top: 10px;  
     float: left;
@@ -63,12 +63,12 @@ h2 {
     margin-right: 30px;
     margin-top: 50px;
     margin-bottom: 30px;
-    color: #fafafa;
+    color: #3a3a3a;
 }
 
 #menu a {
     text-decoration: none;
-    color: #fafafa;
+    color: #3a3a3a;
 }
 
 #menu a:hover {
@@ -93,8 +93,9 @@ h2 {
 #main-image {
     height: 100%;
     width: 100%;
-    background: url('../images/main-image.webp');
-    background-size: contain;
+    background: url('../images/main-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 /* quote section */
@@ -102,7 +103,6 @@ h2 {
 #quote {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     font-size: 130%;
     font-family: 'EB Garamond', serif;
@@ -136,13 +136,22 @@ h2 {
 
 /* book descriptions and times */
 
+#upcoming-reads {
+    text-transform: uppercase;
+    padding-top: 20px; 
+}
+
 #books{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 30px;
     width: 100%;
-    height: auto;
-    background: url('../images/books-section-background.jpeg');
+    height: fit-content;
+    background: url('../images/pexels-photo-4778621.jpeg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 tr, th, td {
@@ -154,24 +163,38 @@ table {
     height: 600px;
     width: 60%;
     text-align: justify;
-    margin: 20px;   
+    margin: 20px;
+    border-radius: 4%;
 }
 
 tr {
     height: 35px;
     color: #3a3a3a;
     font-size: 135%;
-    background-color: rgb(252, 252, 252, 0.8);
-    border-radius: 4%;
+    background-color: rgba(252, 252, 252, 0.8);
+    
 }
 
-td {
+/* calendar-button */
+
+#calendar-button {
+    margin: 25px;
+    padding-bottom: 25px;
 }
 
+#calendar-button a {
+    clear: both;
+    background-color: rgba(252, 252, 252, 0.8);
+    border-radius: 40px;
+    font-size: 130%;
+    padding: 20px;
+    text-decoration: none;
+}
 
-
-
-
+#calendar-button a:hover {
+    color: #fafafa;
+    background-color: #8d2b00;
+}
 /* map */
 
 #map {
