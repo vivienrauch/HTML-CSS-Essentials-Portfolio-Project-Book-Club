@@ -155,7 +155,7 @@ h2 {
     margin-top: 30px;
     width: 100%;
     height: fit-content;
-    background: url('../images/pexels-photo-4778621.jpeg') no-repeat;
+    background: url('../images/book-list-background.jpeg') no-repeat;
     background-size: cover;
     background-position: bottom;
 }
@@ -224,6 +224,12 @@ footer {
     margin: 1%;
     padding: 1%;
     font-size: 150%;
+}
+
+.social a:hover{
+    background-color: #8d2b00;
+    color: #fafafa;
+    border-radius: 8%;
 }
 /* map */
 
