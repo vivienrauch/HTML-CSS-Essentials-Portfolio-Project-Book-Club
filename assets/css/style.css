@@ -142,11 +142,7 @@ h2 {
     margin-top: 30px;
     width: 100%;
     height: auto;
-    background: url('../images/books-section-background.jpeg')
-}
-
-table, tr, td {
-
+    background: url('../images/books-section-background.jpeg');
 }
 
 tr, th, td {
@@ -158,21 +154,18 @@ table {
     height: 600px;
     width: 60%;
     text-align: justify;
-    margin: 20px;
-    border-bottom: 10px;
-    background-color: rgb(252, 252, 252, 0.8)
-    
+    margin: 20px;   
 }
 
 tr {
     height: 35px;
     color: #3a3a3a;
-    font-size: 125%;
-    background-color: rgb(252, 252, 252, 0.8)
+    font-size: 135%;
+    background-color: rgb(252, 252, 252, 0.8);
+    border-radius: 4%;
 }
 
 td {
-    max-width: 200px;
 }
 
 
