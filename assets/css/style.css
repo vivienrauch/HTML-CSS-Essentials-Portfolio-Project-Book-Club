@@ -395,7 +395,25 @@ hr {
 
 /* 685px and below */
 @media screen and (max-width: 800px) {
-    table {
-    overflow-x: auto;
+    #calendar-table {
+        
     }
+
+    #info {
+        flex-direction: column;
+    }
+
+    #menu {
+        clear: right;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .meetup-info, .join-info {
+        font-size: 80%;
+    }
+
+
 }
