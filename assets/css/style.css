@@ -315,3 +315,87 @@ footer {
 #info i {
     color:#8d2b00;
 }
+
+/* Join Us page * - form build up inspired by the Love Running Walkthrough Project */
+
+#form-section {
+    height: 800px;
+    margin-top: 5px;
+    width: 100%;
+    background: url('../images/signup-background.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.signup-form {
+    
+    max-width: 500px;
+    margin: 25px;
+
+    padding: 30px;
+
+    position: absolute;
+    left: 5%;
+    
+    background-color:rgba(141, 43, 0, 0.8);
+    border-radius: 1%;
+    font-size: 120%;
+    color: #fafafa;
+}
+
+.signup-form h2 {
+    text-transform: uppercase;
+    clear: both;
+    margin-bottom: 25px;
+    margin-left: 0;
+    color: #fafafa;
+}
+
+hr {
+    margin: 15px;
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 85%;
+    height: 25px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    margin-top: 5px;    
+}
+
+.text-input:hover {
+    background-color:rgba(252, 252, 252, 0.8);
+}
+
+.join-button {
+    clear: both;
+    margin-top: 15px;
+    width: 100px;
+    background-color: #fafafa;
+    color: #8d2b00;
+    font-family: 'EB Garamond', serif;
+    border-radius: 40px;
+    font-size: 110%;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.join-button:hover {
+    border: 3px solid #8d2b00;
+}
+
+/* media queries - influenced by the Walkthrough Project as well */
+
+/* for larger and medium screen size from 1200px wide and down */
+
+/* 685px and below */
+@media screen and (max-width: 800px) {
+    table {
+    overflow-x: auto;
+    }
+}
