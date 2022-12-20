@@ -25,6 +25,10 @@ This is a website with the goal of growing a community of Malmö-based booklover
 
 My main objective with this website is to use HTML and CSS efficiently in order to create a responsive static website with pleasing aesthetics and intuitive functionality.
 
+## Features
+### Existing Features
+### Future Features
+
 ## UX Design
 
 ### Wireframes
@@ -36,8 +40,6 @@ My main objective with this website is to use HTML and CSS efficiently in order 
 Since it's a website related to books, it was important for me to use fonts that are usually used in books as well.
 Thus all text has **Eb Garamond** as font-family and the logo got **Tangerine**.
 I imported these from [Google Fonts](https://fonts.google.com/).
-
-## Features
 
 ### Logo
 

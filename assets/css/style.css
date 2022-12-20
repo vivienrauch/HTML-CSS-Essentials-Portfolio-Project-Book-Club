@@ -414,7 +414,7 @@ hr {
     }
 }
 
-/* 685px and below */
+/* 685px wide and down */
 @media screen and (max-width: 800px) {
     
     #calendar-table-books {
@@ -501,5 +501,9 @@ hr {
         margin: 0 auto;
     }
 
+    #logo {
+        margin-left: 20px;
+        margin-top: 35px;
+    }
 
 }
