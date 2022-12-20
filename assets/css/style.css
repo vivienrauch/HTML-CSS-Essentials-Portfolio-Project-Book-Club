@@ -246,13 +246,11 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 8px;
-    margin-bottom: 60px;
     width: 100%;
     height: fit-content;
-    background: url('../images/book-list-background.jpeg') no-repeat;
+    background: url('../images/calendar-background.png');
     overflow: hidden;
-    background-size: cover;
-    background-position: bottom;
+    background-size: contain;
 }
 
 #calendar-table tr, th, td {
@@ -274,4 +272,46 @@ footer {
     font-size: 135%;
     background-color: rgba(252, 252, 252, 0.8);
     
+}
+
+/* info (meetup + joining) */
+
+#info {
+    display: flex;
+    height: 250px;
+    align-content: space-around;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 20px;
+    text-align: center;
+}
+
+#info .meetup-info {
+    margin-bottom: 25px;
+}
+
+#info h1 {
+    font-family: 'EB Gramond', serif;
+    font-size: 140%;
+    text-transform: uppercase;
+    color:#8d2b00;
+    margin-bottom: 15px;
+    
+}
+
+#info a {
+    text-decoration: none;
+}
+
+#info a:hover {
+    color:#8d2b00;
+}
+
+#info ul {
+    list-style-type: none;
+    font-size: 130%;
+}
+
+#info i {
+    color:#8d2b00;
 }
