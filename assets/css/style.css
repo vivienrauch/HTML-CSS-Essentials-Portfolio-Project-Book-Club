@@ -128,10 +128,14 @@ h2 {
     color: #3a3a3a;
 }
 
-#quote h3 {
+#quote h2 {
     color: #3a3a3a;
     font-size: 105%;
-    margin-top: 10px;
+    margin-top: 12px;
+    float: none;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* book descriptions and times */
