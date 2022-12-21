@@ -517,10 +517,32 @@ hr {
 
 .meetup-info, .join-info {
     font-size: 60%;
+
 }
 
 #main-image {
     height: 80%;
+}
+
+#main-outer {
+    height: 140px;
+}
+
+#logo {
+    font-size: 250%;
+    margin-top: 15px;
+}
+
+#menu {
+    margin-top: 10px;
+}
+
+#info {
+    margin-top: 0;
+}
+
+#quote {
+    margin-top: 0;
 }
 
 }
