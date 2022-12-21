@@ -186,8 +186,7 @@ tr {
     height: 35px;
     color: #3a3a3a;
     font-size: 135%;
-    background-color: rgba(252, 252, 252, 0.8);
-    
+    background-color: rgba(252, 252, 252, 0.8);   
 }
 
 /* calendar-button */
@@ -509,5 +508,19 @@ hr {
         margin-left: 20px;
         margin-top: 35px;
     }
+
+}
+
+/* 400px width and below */
+
+@media screen and (max-width: 400px) {
+
+.meetup-info, .join-info {
+    font-size: 60%;
+}
+
+#main-image {
+    height: 80%;
+}
 
 }
