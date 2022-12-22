@@ -172,7 +172,7 @@ I deployed the site to GitHub pages and the steps were the following:
     - [Canva](https://www.canva.com/) for resizing images and creating a montage
     - [Balsamiq](https://balsamiq.com/) for creating a wireframe mockup
     - [Pexels](https.//pexels.com/) for the images
-    - [Aldibris](https://www.adlibris.com/se?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGEfuOMhq9P37s6VHWtIa2GaEHWH42dDIJy6pe6AT-TaaOVGejTTUw8aAjP_EALw_wcB) for reference and book cover images
+    - [Adlibris](https://www.adlibris.com/se?gclid=Cj0KCQiA-oqdBhDfARIsAO0TrGEfuOMhq9P37s6VHWtIa2GaEHWH42dDIJy6pe6AT-TaaOVGejTTUw8aAjP_EALw_wcB) for reference and book cover images
     - [Coolors](https://coolors.co/) for the text color palette
     - [Font Awesome](https://fontawesome.com/) for the icons used throughout the site
 
