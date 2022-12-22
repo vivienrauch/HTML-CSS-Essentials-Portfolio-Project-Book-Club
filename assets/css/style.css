@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Tangerine:wght@700&display=swap');
 
+/* general rules */
+
 * {
     margin: 0;
     padding: 0;
@@ -310,8 +312,7 @@ footer {
     font-size: 140%;
     text-transform: uppercase;
     color:#8d2b00;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 }
 
 #info a {
@@ -401,7 +402,8 @@ hr {
 }
 
 .join-button:hover {
-    border: 3px solid #8d2b00;
+    background-color: #31230b6a;
+    color: #fafafa;
 }
 
 /* media queries - influenced by the Walkthrough Project as well */
