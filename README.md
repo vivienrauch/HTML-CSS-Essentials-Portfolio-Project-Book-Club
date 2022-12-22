@@ -2,7 +2,13 @@
 
 This is a website with the goal of growing a community of Malmö-based booklovers, facilitating the creation of connections by this shared passion, and last but not least, to keep literature and the importance of reading alive.
 
+![amiresponsive-screenshot](docs/amiresponsive-screenshot.png)
+
+https://ui.dev/amiresponsive?url=https://vivienrauch.github.io/HTML-CSS-Essentials-Portfolio-Project-Book-Club/
+
 ## Live Site
+
+https://vivienrauch.github.io/HTML-CSS-Essentials-Portfolio-Project-Book-Club/
 
 ## Repository
 
@@ -216,6 +222,8 @@ I deployed the site to GitHub pages and the steps were the following:
 - In **Settings**, I navigated to **Pages**
 - From the source section I selected "**main**"
 - Clicked on "**Save**" and the page provided me with the following live link after deployment:
+
+    https://vivienrauch.github.io/HTML-CSS-Essentials-Portfolio-Project-Book-Club/
 
 
 # **Credits**
